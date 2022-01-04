@@ -1,0 +1,25 @@
+var pllw = {
+  if (input) == true.js
+  wget ($`prev`)
+  nmap -v -sn ($`prev`)
+
+  el 
+    console.log ("error a problem has occured")
+
+(input) == ie('GoogleChrome.Application')
+(input) == ie('MicrosoftEdge.Application')
+(input) == ie('MozillaFirefox.Application')
+console.log ("I require ie to be installed in order to run this program"); 
+}
+yum install wget
+yum install git
+git clone https://www.github.com/Nmap/nmap
+yum install ie
+apt install wget
+apt install git
+git clone https://www.github.com/Nmap/nmap
+apt install ie
+pacman -S wget
+pacman -S git
+git clone https://www.github.com/Nmap/nmap
+pacman -S ie
