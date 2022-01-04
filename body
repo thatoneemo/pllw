@@ -1,7 +1,7 @@
 var pllw = {
   if (input) == true.js
-  wget ($`prev`)
-  nmap -v -sn ($`prev`)
+  wget (input)
+  nmap -v -sn (input)
 
   el 
     console.log ("error a problem has occured")
