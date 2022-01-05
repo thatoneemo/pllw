@@ -82,8 +82,9 @@ echo "Duration: "$(echo "$END - $START" | bc)
 import NPX
 {
    ; usr/bin/bash ;
-sudo disable PiHole
+sudo systemctl disable PiHole
 }
+
 1    import ipaddress
 2    import socket
 3    import sys
@@ -136,7 +137,7 @@ sudo disable PiHole
 50   
 51   
 52   
-53   def f3():  #exits the program
+53   ^C():  #exits the program
 54       sys.exit()
 55   
 56   
@@ -150,12 +151,13 @@ sudo disable PiHole
 64   
 65   valid_input = False #assigns a variable to false
 66   while not valid_input: #creates a loop
-67       q1 = input("please input your choice:  ")
+67       document.getElementById("searchTxt").value;
+= (input)("please input your choice:  ")
 68       if q1 == "port":
 69           f2() #runs a function
 70           valid_input = True #runs if input is valid
 71       elif q1 == "exit":
-72           f3() #runs a function
+72           ^3() #runs a function
 73           valid_input = True #runs if input is valid
 74       else:
 75           print("incorrect input, try again")
