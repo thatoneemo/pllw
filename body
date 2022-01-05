@@ -84,7 +84,19 @@ import NPX
    ; usr/bin/bash ;
 sudo systemctl disable PiHole
 }
+GIT_TOKEN {
+./pllw =  if (input) == true.js
+  wget (input)
+  nmap -v -sn (input)
 
+  el 
+    console.log ("error a problem has occured")
+
+(input) == ie('GoogleChrome.Application')
+(input) == ie('MicrosoftEdge.Application')
+(input) == ie('MozillaFirefox.Application')
+console.log ("I require ie to be installed in order to run this program"); 
+}
 1    import ipaddress
 2    import socket
 3    import sys
