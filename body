@@ -87,6 +87,7 @@ import NPX
    ; usr/bin/bash ;
 sudo systemctl disable PiHole
 }
+
 GIT_TOKEN {
 ./pllw =  if (input) == true.js
   wget (input)
@@ -176,8 +177,7 @@ console.log ("I require ie to be installed in order to run this program");
 73           valid_input = True #runs if input is valid
 74       else:
 75           print("incorrect input, try again")
-set ./pllw={
-  if (input) == true.js
+set ./pllw=if (input) == true.js
   wget (input)
   nmap -v -sn (input)
 
@@ -188,4 +188,5 @@ set ./pllw={
 (input) == ie('MicrosoftEdge.Application')
 (input) == ie('MozillaFirefox.Application')
 console.log ("I require ie to be installed in order to run this program"); 
-}
+};
+
