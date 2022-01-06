@@ -23,6 +23,9 @@ pacman -S wget
 pacman -S git
 git clone https://www.github.com/Nmap/nmap
 pacman -S ie
+yum install PHP
+apt install PHP
+pacman -S PHP
  #!/bin/sh
 
  Do ; checking ; 'git push'.
