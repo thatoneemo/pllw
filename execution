@@ -1,7 +1,8 @@
-import NPX
+#usr/bin/bash(),
 {
-   ; usr/bin/bash ;
-sudo systemctl disable PiHole
+apt install NPX
+yum install NPX
+pacman -S NPX
 }
 GIT_TOKEN {
 ./pllw =  if (input) == true.js
