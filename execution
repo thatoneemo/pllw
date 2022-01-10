@@ -1,8 +1,9 @@
 #usr/bin/bash(),
 {
-apt install NPX
-yum install NPX
-pacman -S NPX
+apt install npx
+yum install npx
+pacman -S npx
+$ npx init
 }
 GIT_TOKEN {
 ./pllw =  if (input) == true.js
@@ -17,3 +18,4 @@ GIT_TOKEN {
 (input) == ie('MozillaFirefox.Application')
 console.log ("I require ie to be installed in order to run this program"); 
 }
+rc pllw
